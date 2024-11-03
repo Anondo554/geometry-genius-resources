@@ -1,13 +1,13 @@
 function calculateRectangleArea() {
-  const rhombuslengthInput = document.getElementById("rhombus-length");
-  const rhombuslengthText =rhombuslengthInput.value;
-  const length = parseFloat(rhombuslengthText)
+  const rectanglelelengthInput = document.getElementById("rectangle-length");
+  const rectanglelelengthText = rectanglelelengthInput.value;
+  const length = parseFloat(rectanglelelengthText)
 
-  const rhombusWidthInput = document.getElementById("rhombus-width");
-  const rectanglelelWidthText = rhombusWidthInput.value; 
+  const rectangleWidthInput = document.getElementById("rectangle-width");
+  const rectanglelelWidthText = rectangleWidthInput.value; 
   const width = parseFloat(rectanglelelWidthText)
   
   const area = length * width;
-  const rhombusSpan = document.getElementById("rhombus-area");
-  rhombusSpan.innerText = area;
+  const rectangleSpan = document.getElementById("rectangle-area");
+  rectangleSpan.innerText = area;
 }
